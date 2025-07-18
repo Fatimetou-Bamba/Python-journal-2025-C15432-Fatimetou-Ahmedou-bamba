@@ -1,1 +1,29 @@
+Le cours de la 2ᵉ semaine a débuté par les étapes essentielles à la réalisation d’un projet de thèse.<br>
+
+Tout d’abord, la première étape concerne la problématique de recherche, qui repose sur trois éléments fondamentaux :<br>
+  •	Le domaine concerné,<br>
+  •	L’axe de recherche choisi,<br>
+  •	Une revue de la littérature (reviews) permettant de définir l’état de l’art.<br>
+
+Ensuite vient l’approche méthodologique, qui doit être choisie en fonction de la problématique posée. Le doctorant peut sélectionner un langage de programmation adapté à la collecte et au traitement des données. En 2025, Mojo est considéré comme le plus performant, suivi de Julia, puis de Python, qui reste un choix populaire malgré des performances moindres.<br>
+
+Dans notre cours, l’accent est mis sur Python. Ce langage dispose de nombreuses bibliothèques facilitant le travail :<br>
+  •	Pandas pour la collecte et la manipulation des données,<br>
+  •	NumPy pour le traitement numérique,<br>
+  •	Matplotlib pour la visualisation des données.<br>
+Le cours a également abordé les différents supports à partir desquels on peut collecter les données, répartis en trois grandes catégories :<br>
+1. Bases de données (SGBD)<br>
+ •	Relationnelles (BDR) : MySQL, PostgreSQL<br>
+ •	NoSQL :<br>
+   o	Document : MongoDB<br>
+   o	Colonne : Cassandra<br>
+   o	Graphe : Neo4j (particulièrement utilisé pour les réseaux sociaux)<br>
+2. Fichiers / Documents<br>
+  •	Formats courants : XML, JSON, CSV<br>
+3. Web<br>
+•	Web classique :<br>
+   o	Statique (2-tiers) : le client reçoit un fichier .html<br>
+   o	Dynamique (3-tiers) : client ↔ serveur web ↔ serveur de base de données<br>
+•	Services web : plus flexibles, ils permettent d’envoyer au client différents types de fichiers (XML, JSON, etc.)
+
 
